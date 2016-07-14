@@ -1,0 +1,54 @@
+html{
+	background-color: #F9E0A9;
+}
+@media all{
+	#main{
+		width: 100%;
+		height: 100%;
+		padding-top: 100px;
+		text-align: center;
+		color: #EB0029;
+	}
+	#about{
+		text-align: center;
+		height: 600px;
+	}
+	#projects{
+		text-align: center;
+		border: 2px solid black;
+		background-color: #1D5B81;
+	}
+	#mm, #roam, #juke{
+		float: left;
+		width: 30%;
+		height: 300px;
+		background-size: 100% 100%;
+		background-image: url("../Images/m-man.png");
+		margin: 5px;
+	}
+	#roam{
+		background-image: url("../Images/roam.png");
+	}
+	#juke{
+		background-image: url("../Images/code.jpg");
+	}
+	footer{
+		height: 20%;
+		background-color: white;
+	}
+	#feet{
+		text-decoration: none;
+	}
+	footer ul li a img{
+		width: 20%;
+	}
+}
+@media (max-width: 960px) and (min-width: 500px){
+	
+}
+@media (max-width: 500px) {
+	#mm, #roam, #juke{
+		float: left;
+		width: 100%;
+	}
+}
