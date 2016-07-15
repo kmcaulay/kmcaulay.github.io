@@ -1,39 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Kirsten McAulay</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel='shortcut icon' href='./Images/favicon.ico' type='image/x-icon'/>
+	<script type="text/javascript" src="scripts/jquery.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
+	<header>
+		<ul>
+			<li><a href="https://github.com/kmcaulay" target="_blank"><img src="Images/GitHub-Mark1.png" target="_blank" alt="github link"></a></li>
+			<li><a href="https://www.linkedin.com/in/kirstenmcaulay" target="_blank"><img src="Images/LinkedIn_logo_initials.png" alt="linkedin link"></a></li>
+			<li><a href="mailto:mcaulay.kirsten@gmail.com?subject=Inquiries"><img src="Images/email-icon.png" alt="email link"></a></li>
+		</ul>
+	</header>
 	<main>
 		<div id="about">
-			<h2>About</h2>
-			<p>I am full-stack web developer based out of New York City. I enjoy building amazing web applications from scratch.</p>
+			<div class="info">
+				<h2>About</h2>
+				<p>I am full-stack web developer based out of New York City. I recently completed a 12-week intensive web development course at The New York Code + Design Academy. I have a background in Sports Medicine as an Athletic Trainer where I helped prevent and treat athletic injuries. Through my love of problem solving I was drawn to coding where I am able to create amazing web application from scratch.</p>
+				<div id="stuff">
+					<h2>Skills</h2>
+					<div class="skills">
+						<h3>Lanuages</h3>
+							<div class="col">
+								<p>JavaScript</p>
+								<p>Jquery</p>
+								<p>Ruby</p>
+								<p>Ruby on Rails</p>
+								<p>Git</p>
+							</div>
+							<div class="col">
+								<p>Sinatra</p>
+								<p>Rspec</p>
+								<p>HTML5</p>
+								<p>CSS3</p>
+								<p>SASS</p>
+							</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="projects">
 			<h2>Projects</h2>
 			<div id="mm">
-				<h3>Mellow Man</h3>
-				<p>Exciting side scrolling platform game where you collect gems and complete each level to get Mellow Man to the finish line. Built using the Phaser framework with HTML5 and Javascript with a Sinatra back-end.</p>
-				<a href="https://mellow-man.herokuapp.com" target="_blank">Check It Out!</a>
+				<div id="show1">
+					<h3 class="mm">Mellow Man</h3>
+					<p class="mm">Exciting side scrolling platform game where you collect gems and complete each level to get Mellow Man to the finish line. Built using the Phaser framework with HTML5 and Javascript with a Sinatra back-end.</p>
+					<a href="https://mellow-man.herokuapp.com" target="_blank" class="mm">Check It Out!</a>
+				</div>
 			</div>
 			<div id="roam">
-				<h3>Roam NYC</h3>
-				<p>Powerful web application that utilizes trending hashtags and geolocates how you can join in the action!. Using Javascript, Ruby on Rails, and the Instagram API.</p>
-	    	<a href="https://roamnyc.herokuapp.com/" target="_blank">Check It Out!</a>
+				<div id="show2">
+					<h3 class="roam">Roam NYC</h3>
+					<p class="roam">Powerful web application that utilizes trending hashtags and geolocates how you can join in the action!. Using Javascript, Ruby on Rails, and the Instagram API.</p>
+		    	<a href="https://github.com/kmcaulay/group_project" target="_blank" class="roam">Check It Out!</a>
+		    </div>
 			</div>
 			<div id="juke">
-				<h3>Ye Olde Jukebox</h3>
-				<p></p>
+				<div id="show3">
+					<h3 class="juke">Ye Olde Jukebox</h3>
+					<p class="juke">Using Object Oriented JavaScript I create a simple jukebox application, that plays old radio shows.</p>
+					<a href="https://github.com/kmcaulay/jukebox" target="_blank" class="juke">Check It Out!</a>
+				</div>
 			</div>
 		</div>
 	</main>
-	<footer>
-		<ul>
-			<li class="feet"><a href="https://github.com/kmcaulay" target="_blank"><img src="Images/GitHub-Mark1.png" target="_blank"></a></li>
-			<li class="feet"><a href="https://www.linkedin.com/in/kirstenmcaulay" target="_blank"><img src="Images/LinkedIn_logo_initials.png"></a></li>
-			<li class="feet"><a href="mailto:mcaulay.kirsten@gmail.com?subject=Inquiries"><img src="Images/email-icon.png"></a></li>
-		</ul>
-	</footer>
 </body>
 </html>

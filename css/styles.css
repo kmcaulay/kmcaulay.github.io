@@ -1,5 +1,6 @@
 html{
-	background-color: #F9E0A9;
+	background-color: #CD333F;
+	font-family: 'Montserrat', sans-serif;
 }
 @media all{
 	#main{
@@ -7,48 +8,117 @@ html{
 		height: 100%;
 		padding-top: 100px;
 		text-align: center;
-		color: #EB0029;
+	}
+	#main a{
+		text-decoration: none;
+		background-color: #1D5B81;
+		padding: 20px;
+		color: white;
+		margin: 30px;
 	}
 	#about{
 		text-align: center;
 		height: 600px;
+		background-image: url(../Images/computer.jpg);
+		background-size: 100% 100%;
+	}
+	.info{
+		background-color: black;
+		opacity: .7;
+		color: white;
+		height: 100%;
+		width: 100%;
 	}
 	#projects{
 		text-align: center;
 		border: 2px solid black;
 		background-color: #1D5B81;
+		color: white;
 	}
 	#mm, #roam, #juke{
 		float: left;
-		width: 30%;
+		width: 32%;
 		height: 300px;
 		background-size: 100% 100%;
 		background-image: url("../Images/m-man.png");
 		margin: 5px;
 	}
+	#show1, #show2, #show3{
+		display: none;
+		background-color: #1D5B81;
+		opacity: .9;
+		height: 100%;
+		width: 100%;
+		color: white;
+	}
+
 	#roam{
 		background-image: url("../Images/roam.png");
 	}
 	#juke{
 		background-image: url("../Images/code.jpg");
 	}
-	footer{
-		height: 20%;
+	header{
+		height: 10%;
+		clear: both;
+		text-align: center;
+	}
+	header ul li{
+		display: inline;
+		padding: 30px;
+	}
+	header ul li:hover{
 		background-color: white;
 	}
-	#feet{
-		text-decoration: none;
+	header ul li a img{
+		width: 30px;
 	}
-	footer ul li a img{
-		width: 20%;
+	#stuff{
+		width: 100%;
 	}
-}
-@media (max-width: 960px) and (min-width: 500px){
+	.skills{
+		width: 100%;
+		height: 100%;
+		float: left;
+		text-align: center;
+
+	}
+	.skills p{
+		color: #CD333F;
+	}
 	
+}
+@media (max-width: 800px) and (min-width: 500px){
+	#mm, #roam, #juke{
+		float: left;
+		width: 60%;
+	}
+	.col{
+		width: 40%;
+		float: left;
+	}
 }
 @media (max-width: 500px) {
 	#mm, #roam, #juke{
 		float: left;
 		width: 100%;
+	}
+	#show1, #show2, #show3{
+		background-color: #1D5B81;
+		height: 100%;
+		width: 100%;
+		color: white;
+	}
+	#show1, #show2, #show3{
+		display: inline-block;
+		background-color: #1D5B81;
+		opacity: .9;
+		height: 100%;
+		width: 100%;
+		color: white;
+	}
+	.col{
+		width: 40%;
+		float: left;
 	}
 }
