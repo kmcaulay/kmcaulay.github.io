@@ -51,6 +51,11 @@ html{
 		width: 100%;
 		color: white;
 	}
+	#show1 a, #show2 a, #show3 a{
+		text-decoration: none;
+		background-color: black;
+		color: white;
+	}
 
 	#roam{
 		background-image: url("../Images/roam.png");
