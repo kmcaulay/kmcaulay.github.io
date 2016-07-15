@@ -56,7 +56,7 @@ html{
 		background-image: url("../Images/roam.png");
 	}
 	#juke{
-		background-image: url("../Images/code.jpg");
+		background-image: url("../Images/jukebox.png");
 	}
 	header{
 		height: 10%;
@@ -88,10 +88,10 @@ html{
 	}
 	
 }
-@media (max-width: 800px) and (min-width: 500px){
+@media (max-width: 768px) and (min-width: 500px){
 	#mm, #roam, #juke{
 		float: left;
-		width: 60%;
+		width: 30%;
 	}
 	.col{
 		width: 40%;
