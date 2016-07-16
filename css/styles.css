@@ -10,12 +10,18 @@ html{
 		text-align: center;
 		color: white;
 	}
+	#main h1, #main h3{
+		padding: 30px;
+	}
 	#main a{
 		text-decoration: none;
-		background-color: #1D5B81;
+		border: 3px solid #1D5B81;
 		padding: 20px;
 		color: white;
 		margin-top: 100px;
+	}
+	#main a:hover{
+		background-color: #1D5B81;
 	}
 	#about{
 		text-align: center;
@@ -92,7 +98,10 @@ html{
 	.skills p{
 		color: #00A0B0;
 	}
-	
+	footer{
+		text-align: center;
+		color: white;
+	}
 }
 @media (max-width: 768px) and (min-width: 500px){
 	#mm, #roam, #juke{
