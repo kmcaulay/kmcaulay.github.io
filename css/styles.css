@@ -74,7 +74,7 @@ html{
 		padding: 30px;
 	}
 	header ul li:hover{
-		background-color: white;
+		border-bottom: 5px solid white;
 	}
 	header ul li a img{
 		width: 30px;
